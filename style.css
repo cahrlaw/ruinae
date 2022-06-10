@@ -1,0 +1,197 @@
+body, html {
+  height: 100%; width: 100%;
+}
+
+.bg-dark {
+  width: 100%;
+  background-color: #494b51;
+}
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.nav-link {
+  font-family: 'Spline Sans Mono', monospace;
+  font-weight: 400;
+}
+
+.centrato {
+  float: none;
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing .col-lg-4 h2 {
+  font-family: 'Spline Sans Mono', monospace;
+  font-weight: 600;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+  font-family: 'Spline Sans Mono', monospace;
+  font-weight: 400;
+}
+
+
+/* Featurettes
+------------------------- */
+
+
+.featurette-divider {
+  margin: 3rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      font-weight: 700;
+      line-height: 1;
+      letter-spacing: -.05rem;
+}
+
+.lead {
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      font-weight: 300;
+      text-align:  justify;
+      text-align-last: left;
+}
+
+.lead b {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+      font-weight: 700;
+      text-align:  justify;
+      text-align-last: left;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 0rem;
+    font-size: 1.25rem;
+    line-height: 1;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+  }
+}
+
+.btn-danger {
+  background-color: #72030A !important;
+  border-color: #72030A !important;
+  font-family: 'Spline Sans Mono', monospace;
+  font-weight: 600;
+  color: white !important;
+}
+
+.justify-content-md-between {
+  justify-content: space-between !important;
+}
+
+
+.py-3 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+
+.align-items-center {
+  align-items: center !important;
+}
+
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+.rectangle {
+      height: 20%;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.5);
+      padding: 2%;
+      border-radius: 25px;
+      }
+
+.rectanglelow {
+      height: 18%;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.5);
+      padding: 2%;
+      border-radius: 25px;
+      }
+.rectangleshort {
+      height: 20%;
+      width: 70%;
+      background-color: rgba(255, 255, 255, 0.5);
+      padding: 2%;
+      border-radius: 25px;
+      margin: auto !important;
+      }
+
+.rectangleshort2 {
+      height: 20%;
+      width: 75%;
+      background-color: rgba(255, 255, 255, 0.5);
+      padding: 2%;
+      border-radius: 25px;
+      margin: auto !important;
+      }
+
+.logofooter {
+  padding-right: 20%;
+}
+
+.socialfooter {
+  padding-left: 2%;
+}
+
+.testoimportante {
+  color: #72030A !important;
+}
+
+/* unvisited link */
+a:link {
+  color: #72030A;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #72030A;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #72030A;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: orange;
+  text-decoration: underline;
+}
