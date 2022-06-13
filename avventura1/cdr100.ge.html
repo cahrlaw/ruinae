@@ -24,7 +24,7 @@
       }
 
 
-      .parallax {
+        .parallax {
         /* The image used */
         background-image: url("img.a1/avventura1-sfondo.png");
 
@@ -62,6 +62,15 @@
       color: white !important;
       }
 
+      .avventura1titoletto {
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      font-weight: 700;
+      line-height: 1;
+      letter-spacing: -.05rem;
+      font-size: 90px;
+      color: white !important;
+      }
+
       .imgbox {
         display: grid;
         height: 100%;
@@ -88,6 +97,41 @@
         font-size: 30px !important;
       }
 
+      /* unvisited link */
+      a:link {
+        color: white;
+        text-decoration: none;
+      }
+
+      /* visited link */
+      a:visited {
+        color: whitesmoke;
+        text-decoration: none;
+      }
+
+      /* mouse over link */
+      a:hover {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      /* selected link */
+      a:active {
+        color: whitesmoke;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .scelteboxa1 {
+        text-align: center;
+        padding: 1%;
+      }
+
+      .filler{
+        padding: 20% !important;
+      }
+
     </style>
   </head>
   <body>
@@ -103,47 +147,24 @@
                   </div>
                 </div>
 
-              <div class="ilgiocodivider"> 
-                <h1 class="avventura1titolo ">La Caduta della Respublica. </h1>
-              </div>
+              <div class="ilgiocodivider"> </div>
 
-                <div class="rectangle blackbg">               
-                 <div class="row featurette">
+              <div class="rectangle blackbg">               
+                <div class="row featurette">
                   <div class="col-md-7 order-md-2 a1text">
-                    <h2 class="featurette-heading"><b><span>Dossier. </b></span></h2>
-                      <p class="lead"><b>Data:</b> 4 novembre 2281. </p>
-                      <p class="lead"><b>Località:</b> Mantova.</p>
-                      <p class="lead"><b>Evento:</b> Disordini urbani, Colpo di stato.</p>
-                      <p class="lead"><b>Tipo documento:</b> Simulazione.</p>
-                      <p class="lead"><b>Soggetto:</b> Primo "Fausto" Urbinati.</p>
-                      <p class="lead"><b>Testimonianza:</b> Affidabile.</p>
-                      <p class="lead">La simulazione è stata ricavata dalla testimonianza del soggetto e verificata con sopralluoghi di agenti SISNI. È possibile ripercorrere una settimana della vita di Primo “Fausto” Urbinati, scegliendo liberamente <b>vari percorsi possibili</b> per sperimentare diverse situazioni alternative o realmente accadute. I <b>risultati di queste azioni variano in base all’oculatezza delle scelte fatte</b>. Una volta compiuta una scelta, non si può tornare indietro. Alcune scelte richiederanno oggetti, conoscenze acquisite o simili. Durante la simulazione è possibile <b>raccogliere dati e indizi</b>, ricalcando fedelmente i passi del soggetto in quei giorni, ma sono previsti anche esiti negativi, fino alla <b>morte del soggetto</b>. Procedere al passo seguente per preparare la simulazione.</p>
+                    <h2 class="featurette-heading"><b><span>La fine di un giorno.</b></span></h2>
+                      <p class="lead">Avete raggiunto questa pagina ripercorrendo, quasi alla lettera, la storia reale di Fausto e de La Caduta della Respublica. I documenti del SISNI sulla deposizione di Urbinati finiscono qui, per ora. Altre ricerche potrebbero portare a breve alla riscoperta di altri faldoni, del prosieguo della storia della Caduta della Respublica e della fine di Primo Fausto Urbinati. </p>
+                      <p class="lead">Grazie alle vostre scelte, avete sbloccato il documento sottostante, contenente le schede personaggio dei protegonisti dell'avventura, per poterla continuare, ma attorno a un tavolo da gioco.</p>
+                      <a href="cdrpg.pdf" class="btn btn-danger" role="button" download target="_blank">Scarica</a>
+
                   </div>
                     <div class="col-md-5 order-md-1">
-                      <img class="featurette-image img-fluid mx-auto" src="img.a1/avv1tbnail.png" alt="Testo">
+                      <img class="featurette-image img-fluid mx-auto" src="img.a1/postodiblocco.jpg" alt="Testo">
                     </div>
                   </div>
-                </div>  
+                </div>
 
-              <hr class="featurette-divider">
-
-                  <div class="rectangleshort blackbg">                
-                    <div class="row featurette">
-                       <div class="col-md-7 order-md-1 a1text">
-                           <h2 class="featurette-heading"><b><span><span class="a1text">Preparazione. </b></span></h2>
-                           <p class="lead">Per ripercorrere questa simulazione SISNI è necessario un buon intuito, ma anche alcuni semplici materiali. Per aiutare la memoria, procurati:</p> 
-                            <p class="lead"><b>Un taccuino.</b> </p>
-                            <p class="lead"><b>Una matita.</b> </p>
-                            <p class="lead">Segna sul taccuino gli indizi raccolti, gli oggetti ottenuti e le informazioni dedotte dal caso. Non avrai bisogno di <b>nessun dado o calcolatrice</b>, la vita del soggetto esaminato è appesa del tutto al tuo sangue freddo e senso logico. Selezionare "Inizia" quando pronti.</p>
-                           <a href="cdr001.html" class="btn btn-danger" role="button">Inizia.</a>
-                        </div>
-                        <div class="col-md-5 order-md-1">
-                          <img class="featurette-image img-fluid mx-auto" src="img.a1/penpaper.png" alt="Testo">
-                        </div>
-                    </div>
-                  </div>
-
-              <hr class="featurette-divider">
+              <hr class="filler featurette-divider">
 
                   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
                     <div class="col-md-4 d-flex align-items-center">
