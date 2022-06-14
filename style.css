@@ -172,7 +172,19 @@ body, html {
 }
 
 @media (max-width: 480px) {
-  .rectangle .rectangleshort .rectangleshort2 .rectanglelow {
+  .rectangle  {
+    width: 100% !important;
+    padding: 5% !important;
+  }
+  .rectangleshort {
+    width: 100% !important;
+    padding: 5% !important;
+  }
+  .rectangleshort2 {
+    width: 100% !important;
+    padding: 5% !important;
+  }
+  .rectanglelow {
     width: 100% !important;
     padding: 5% !important;
   }
