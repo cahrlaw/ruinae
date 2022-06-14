@@ -71,16 +71,16 @@ body, html {
 
 @media (max-width: 480px) {
   .ilgiocotitolo {
-      font-size: auto !important;
+      font-size: 40px !important;
   }
   .archiviotitolo {
-      font-size: auto !important;
+      font-size: 40px !important;
   }
   .avventuratitolo {
-      font-size: auto !important;
+      font-size: 40px !important;
   }
   .avventura1titolo {
-    font-size: auto !important;
+    font-size: 40px !important;
   }
 }
 
