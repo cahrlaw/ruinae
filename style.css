@@ -171,6 +171,13 @@ body, html {
       text-align: center;
 }
 
+@media (max-width: 480px) {
+  {.rectangle .rectangleshort .rectangleshort2 .rectanglelow
+    width: 100% !important;
+    padding: 5% !important;
+  }
+}
+
 .logofooter {
   padding-right: 20%;
 }
