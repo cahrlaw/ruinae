@@ -2,6 +2,9 @@ body, html {
   height: 100%; width: 100%;
 }
 
+/* NAVBAR
+-------------------------------------------------- */
+
 .bg-dark {
   width: 100%;
   background-color: #494b51;
@@ -25,7 +28,62 @@ body, html {
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
-/* Center align the text within the three columns below the carousel */
+.ilgiocodivider {
+  height: 20%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 2%;
+}
+
+.ilgiocotitolo {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -.05rem;
+  font-size: 150px;
+}
+
+.archiviotitolo {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -.05rem;
+  font-size: 150px;
+  color: white !important;
+}
+
+.avventuratitolo {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -.05rem;
+  font-size: 150px;
+}
+
+.avventura1titolo {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -.05rem;
+  font-size: 150px;
+  color: white !important;
+}
+
+@media (max-width: 480px) {
+  .ilgiocotitolo {
+      font-size: 80 !important;
+  }
+  .archiviotitolo {
+      font-size: 80 !important;
+  }
+  .avventuratitolo {
+      font-size: 80 !important;
+  }
+  .avventura1titolo {
+    font-size: 80 !important;
+  }
+}
+
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
@@ -34,6 +92,12 @@ body, html {
 .marketing .col-lg-4 h2 {
   font-family: 'Spline Sans Mono', monospace;
   font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .row {
+      padding-bottom: 2% !important;
+  }
 }
 
 .marketing .col-lg-4 p {
@@ -49,43 +113,39 @@ body, html {
 
 
 .featurette-divider {
-  margin: 3rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 3rem 0; 
 }
 
 /* Thin out the marketing headings */
 .featurette-heading {
-      font-family: 'Yanone Kaffeesatz', sans-serif;
-      font-weight: 700;
-      line-height: 1;
-      letter-spacing: -.05rem;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -.05rem;
 }
 
 .lead {
-      font-family: 'Yanone Kaffeesatz', sans-serif;
-      font-weight: 300;
-      text-align:  justify;
-      text-align-last: left;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 300;
+  text-align:  justify;
+  text-align-last: left;
 }
 
 .lead b {
   font-family: 'Yanone Kaffeesatz', sans-serif;
-      font-weight: 700;
-      text-align:  justify;
-      text-align-last: left;
+  font-weight: 700;
+  text-align:  justify;
+  text-align-last: left;
 }
 
+.testoimportante {
+  color: #72030A !important;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
 @media (min-width: 40em) {
-  /* Bump up size of carousel content */
-  .carousel-caption p {
-    margin-bottom: 0rem;
-    font-size: 1.25rem;
-    line-height: 1;
-  }
-
   .featurette-heading {
     font-size: 50px;
   }
@@ -98,6 +158,9 @@ body, html {
 
   }
 }
+
+/* VARIE
+-------------------------------------------------- */
 
 .btn-danger {
   background-color: #72030A !important;
@@ -127,51 +190,43 @@ body, html {
   box-sizing: border-box;
 }
 
+/* RETTANGOLI
+-------------------------------------------------- */
+
 .rectangle {
-      height: 20%;
-      width: 100%;
-      background-color: rgba(255, 255, 255, 0.5);
-      padding: 2%;
-      border-radius: 25px;
-      }
-
-.rectanglelow {
-      height: 18%;
-      width: 100%;
-      background-color: rgba(255, 255, 255, 0.5);
-      padding: 2%;
-      border-radius: 25px;
-      }
-.rectangleshort {
-      height: 20%;
-      width: 70%;
-      background-color: rgba(255, 255, 255, 0.5);
-      padding: 2%;
-      border-radius: 25px;
-      margin: auto !important;
-      }
-
-.rectangleshort2 {
-      height: 20%;
-      width: 75%;
-      background-color: rgba(255, 255, 255, 0.5);
-      padding: 2%;
-      border-radius: 25px;
-      margin: auto !important;
-      }
-
-.rectangleshort3 {
-      height: auto;
-      width: auto;
-      background-color: rgba(255, 255, 255, 0.5);
-      padding: 4%;
-      border-radius: 25px;
-      margin: auto !important;
-      font-family: 'Spline Sans Mono', monospace;
-      text-align: center;
+  height: 20%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 2%;
+  border-radius: 25px;
 }
 
-@media (max-width: 200px) {
+.rectanglelow {
+  height: 18%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 2%;
+  border-radius: 25px;
+}
+.rectangleshort {
+  height: 20%;
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 2%;
+  border-radius: 25px;
+  margin: auto !important;
+}
+
+.rectangleshort2 {
+  height: 20%;
+  width: 75%;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 2%;
+  border-radius: 25px;
+  margin: auto !important;
+}
+
+@media (max-width: 480px) {
   .rectangle  {
     width: 100% !important;
     padding: 5% !important;
@@ -188,7 +243,11 @@ body, html {
     width: 100% !important;
     padding: 5% !important;
   }
+
 }
+
+/* FOOTER
+-------------------------------------------------- */
 
 .logofooter {
   padding-right: 20%;
@@ -198,13 +257,8 @@ body, html {
   padding-left: 2%;
 }
 
-.testoimportante {
-  color: #72030A !important;
-}
-
-.natheading {
-  font-weight: 600;
-}
+/* LINK
+-------------------------------------------------- */
 
 /* unvisited link */
 a:link {
