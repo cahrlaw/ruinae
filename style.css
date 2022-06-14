@@ -95,8 +95,8 @@ body, html {
 }
 
 @media (max-width: 480px) {
-  .row {
-      padding-bottom: 2% !important;
+  .featurette-image {
+      padding: 3%;
   }
 }
 
@@ -107,16 +107,30 @@ body, html {
   font-weight: 400;
 }
 
+.maindesc {
+  padding: 1%;
+}
 
-/* Featurettes
+@media (max-width: 480px) {
+.maindesc {
+  padding: 3%;
+  }
+}
+
+/* FEATURETTE
 ------------------------- */
 
 
 .featurette-divider {
-  margin: 3rem 0; 
+  margin: 1rem 0; 
 }
 
-/* Thin out the marketing headings */
+@media (min-width: 480px) {
+  .featurette-divider {
+  margin: 3rem 0; 
+  }
+}
+
 .featurette-heading {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-weight: 700;
@@ -173,7 +187,6 @@ body, html {
 .justify-content-md-between {
   justify-content: space-between !important;
 }
-
 
 .py-3 {
   padding-top: 1rem !important;
