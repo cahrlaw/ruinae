@@ -62,6 +62,18 @@
         max-height: 100%;
         margin: auto;
       }
+
+          @media (min-width: 480px) {
+      .roadmapmobile {
+        display: none;
+        }
+      }
+
+    @media (max-width: 480px) {
+      .roadmapdesktop {
+        display: none;
+        }
+      }
     </style>
   </head>
   <body>
@@ -101,8 +113,11 @@
               <hr class="featurette-divider">
 
         </div><!-- /.container marketing -->      
-    <div class="roadmap imgbox"> 
+    <div class="roadmap imgbox roadmapdesktop"> 
       <img class="center-fit" src="img/timeline-sviluppo.png">
+    </div>
+    <div class="roadmap imgbox roadmapmobile"> 
+      <img class="center-fit" src="img/timeline-sviluppo-mobile.png">
     </div>
 
         <div class="container marketing">
