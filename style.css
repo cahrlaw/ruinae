@@ -171,7 +171,7 @@ body, html {
       text-align: center;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 200px) {
   .rectangle  {
     width: 100% !important;
     padding: 5% !important;
