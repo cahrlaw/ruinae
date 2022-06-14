@@ -172,7 +172,7 @@ body, html {
 }
 
 @media (max-width: 480px) {
-  {.rectangle .rectangleshort .rectangleshort2 .rectanglelow
+  .rectangle .rectangleshort .rectangleshort2 .rectanglelow {
     width: 100% !important;
     padding: 5% !important;
   }
