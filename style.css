@@ -181,7 +181,9 @@ body, html {
 -------------------------------------------------- */
 
 .btn-danger {
+  background-color: maroon;
   background-color: #72030A !important;
+  border-color: maroon;
   border-color: #72030A !important;
   font-family: 'Spline Sans Mono', monospace;
   font-weight: 600;
